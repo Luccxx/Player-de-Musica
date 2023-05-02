@@ -17,15 +17,15 @@ reiniciar.addEventListener('dblclick', restart)
 
 function proximo(){
     img.style.transform = "rotateY(360deg)"
-    music.src = "/music/even_flow.mp3"
-    img.src = "/img/pearl_jam.jpg"
+    music.src = "../music/even_flow.mp3"
+    img.src = "../img/pearl_jam.jpg"
     descrition.innerHTML = "Pearl Jam"
 }
 
 function voltar(){
     img.style.transform = "rotateY(-0deg)"
-    music.src = "/music/back_in_black.mp3"
-    img.src = "/img/acdc.jpg"
+    music.src = "../music/back_in_black.mp3"
+    img.src = "../img/acdc.jpg"
     descrition.innerHTML = "AC DC"
 }
 
