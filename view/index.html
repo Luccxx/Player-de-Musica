@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Player de Músicas</title>
+</head>
+<body>
+    
+    <main class="container">
+        <div class="disco">
+            <img src="/img/acdc.jpg" alt="" id="img">
+            <audio src="/music/back_in_black.mp3 " id="musica"></audio>
+            <progress id="progressoMusica" value="0" max="100"></progress>
+            <div class="descrition">
+                <p id="descrition">AC DC</p>
+            </div>
+            <button id="tocar">Play</button>
+            <button id="pausar">Pause</button>
+            <button id="reiniciar">Restart</button>
+        </div>
+        <div class="next">
+            <button id="next"><img src="/img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png" alt="" id="img_next"></button>
+        </div>
+        <div class="back">
+            <button id="back"><img src="/img/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png" alt="" id="img_back"></button>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
